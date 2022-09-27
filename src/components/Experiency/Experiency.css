@@ -1,0 +1,24 @@
+.experiency{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    gap: 20px;
+}
+
+.experiency--card{
+    border: 2px solid #12001A;
+    border-radius: 10px;
+    width: 850px;
+    padding: 25px;
+    box-shadow: 3px 3px #12001A;
+    font-size: 1.25rem;
+}
+
+.experiency--card > h3, .experiency--card > p{
+    padding-bottom: 10px;
+}
