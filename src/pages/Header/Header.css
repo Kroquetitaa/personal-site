@@ -31,7 +31,7 @@
     display: block;
     height: 2px;
     background-color: whitesmoke;
-    transform: scale(0,2);
+    transform: scale(0,1);
     transform-origin: center;
     transition: transform .3s;
 }

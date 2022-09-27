@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <ul className="footer--ul">
-        <li className="footer--ul__cite"><cite>"Si puedes imaginarlo,puedes programarlo"</cite></li>
+        <li className="footer--ul__cite">
+          <cite>"If you can imagine it you can program it"</cite>
+        </li>
       </ul>
     </div>
   );
