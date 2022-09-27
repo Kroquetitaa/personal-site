@@ -1,0 +1,43 @@
+.nav--info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 12.5vh;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: #12001A;
+    letter-spacing: 0.5rem;
+}
+
+.nav--info__img > li > img{
+    border: 3px solid lightslategrey;
+    border-radius: 50%;
+}
+
+.nav--info__name,
+.nav--info__studies,
+.nav--info__experiency{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav--info__name::after,
+.nav--info__studies::after,
+.nav--info__experiency::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: whitesmoke;
+    transform: scale(0,2);
+    transform-origin: center;
+    transition: transform .3s;
+}
+
+.nav--info__name:hover:after,
+.nav--info__studies:hover:after,
+.nav--info__experiency:hover:after{
+    transform: scale(1,1);
+}
