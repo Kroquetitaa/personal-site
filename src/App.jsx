@@ -6,7 +6,7 @@ import Header from './pages/Header/Header';
 import Aboutme from './components/Aboutme/Abouteme';
 import Studies from './components/studies/Studies';
 import Experiency from './components/experiency/Experiency';
-import Habilities from './components/Habilities/Habilities';
+import Skills from './components/Skills/Skills';
 
 const App = () => {
 
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/kroquetita" element={<Aboutme />}></Route>
           <Route path="/studies" element={<Studies />}></Route>
           <Route path="/experiency" element={<Experiency />}></Route>
-          <Route path="/habilities" element={<Habilities />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
         </Routes>
         <Footer />
       </Router>

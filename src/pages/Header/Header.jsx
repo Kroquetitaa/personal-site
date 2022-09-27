@@ -1,5 +1,5 @@
 import "./Header.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,7 +7,12 @@ const Header = () => {
       <ul className="nav--info">
         <Link to="/" className="nav--info__img">
           <li>
-            <img src="../../public/Kroquetita.png" alt="kroquetita" width={64} height={64}/>
+            <img
+              src="/Kroquetita.png"
+              alt="kroquetita"
+              width={64}
+              height={64}
+            />
           </li>
         </Link>
         <Link to="/kroquetita" className="nav--info__name">
@@ -19,8 +24,8 @@ const Header = () => {
         <Link to="/experiency" className="nav--info__experiency">
           <li>Experiency</li>
         </Link>
-        <Link to="/habilities" className="nav--info__experiency">
-          <li>Habilities</li>
+        <Link to="/skills" className="nav--info__experiency">
+          <li>Skills</li>
         </Link>
       </ul>
     </nav>

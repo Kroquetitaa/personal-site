@@ -11,7 +11,7 @@ const Abouteme = () => {
   return (
     <div className="aboutme">
       <video loop autoPlay muted className="aboutme--video">
-        <source src="/public/video.mp4" type="video/mp4" />
+        <source src="/video.mp4" type="video/mp4" />
       </video>
       <h2 className="aboutme--title">
         Hi!🤚my name is "Sergio" alias: <span>Kroquetita</span>

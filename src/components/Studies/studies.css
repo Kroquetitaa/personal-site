@@ -1,0 +1,119 @@
+.studies{
+    width: 100%;
+    height: 75vh;
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+
+.studies--one{
+    height: 75vh;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.studies--two{
+    height: 75vh;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.studies--three{
+    height: 75vh;
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 4;
+    grid-column-end: 7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.studies--one > p > span{
+    color: #5FD96E;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.studies--two > p > span{
+    color: crimson;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.studies--three > p > span{
+    color:orange;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.studies--one > h3,
+.studies--two > h3,
+.studies--three > h3{
+    padding: 10px;
+}
+
+.studies-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+    border: 2px solid #12001A;
+    border-radius: 10px;
+}
+
+.studies-info > h3{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.studies-info > p {
+    font-size: 1.15rem;
+}
+
+.studies--one > .studies-info > p > span{
+    color: red;
+    font-weight: bolder;
+}
+
+.studies--two > .studies-info > p > span{
+    color: orange;
+    font-weight: bolder;
+}
+
+.studies--three > .studies-info > p > span{
+    color: lightseagreen;
+    font-weight: bolder;
+}
+
+.studies-info:hover{
+    background-color: #12001A;
+    color: white;
+    border-color: lightseagreen;
+}
